@@ -1,0 +1,90 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a default font */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the size of the logo as needed */
+  }
+  
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  /* Main content styles */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  
+  .package {
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #444;
+  }
+  
+  .package h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .package ul {
+    margin-bottom: 10px;
+  }
+  
+  .package ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #fff;
+  }
+  
+  /* Contact section styles */
+  #contact p {
+    margin-bottom: 5px;
+  }
+  
